@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Trans_4">
+
+    <RelativeLayout
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/eng"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:paddingBottom="15dp">
+
+            <TextView
+                android:padding="4dp"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:id="@+id/textViewg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="English: "
+                />
+    <TextView
+        android:padding="4dp"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:id="@+id/textenglish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="English" />
+
+            <Button
+                android:layout_margin="4dp"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:id="@+id/btenglish"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Speak"></Button>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/span"
+            android:layout_below="@id/eng"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="15dp"
+            android:paddingTop="15dp"
+            android:gravity="center">
+
+            <TextView
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:padding="4dp"
+                android:id="@+id/textViewgh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Spanish: "
+                />
+            <TextView
+                android:padding="4dp"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:id="@+id/textspanish"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Spanish" />
+
+            <Button
+                android:layout_margin="4dp"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:id="@+id/btspanish"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Speak"></Button>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fren"
+            android:paddingBottom="15dp"
+            android:paddingTop="15dp"
+            android:layout_below="@id/span"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <TextView
+                android:padding="4dp"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:id="@+id/textViewgj"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="French: "
+                />
+            <TextView
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:padding="4dp"
+                android:id="@+id/textFrench"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="French" />
+
+            <Button
+                android:layout_margin="4dp"
+                android:id="@+id/btFrench"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Speak"></Button>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/germanLO"
+            android:paddingBottom="15dp"
+            android:paddingTop="15dp"
+            android:layout_below="@+id/fren"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <TextView
+                android:padding="4dp"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:id="@+id/textViewhg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="German: " />
+
+            <TextView
+                android:padding="4dp"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:id="@+id/textGerman"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="German" />
+
+            <Button
+                android:layout_margin="4dp"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:id="@+id/btgerman"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Speak"></Button>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/hindi"
+            android:paddingBottom="15dp"
+            android:paddingTop="15dp"
+            android:layout_below="@+id/germanLO"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <TextView
+                android:padding="4dp"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:id="@+id/textgjhg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hindi: " />
+
+            <TextView
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:padding="4dp"
+                android:id="@+id/textHindi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="German" />
+
+            <Button
+                android:layout_margin="4dp"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:id="@+id/btHindi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Speak"></Button>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/first_page"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hindi"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="163dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="163dp"
+            android:text="Done"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+    </RelativeLayout>
+</LinearLayout>
